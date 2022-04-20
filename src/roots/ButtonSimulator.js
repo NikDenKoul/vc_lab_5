@@ -25,6 +25,12 @@ function ButtonSimulator() {
                         <button>8</button>
                         <button>9</button>
                     </box>
+                    <br/>
+                    <box>
+                        <button>+</button>
+                        <button>0</button>
+                        <button>-</button>
+                    </box>
                 </box>
                 <br/>
                 <button><Link to="/">Go back, I want to be monkey</Link></button>
