@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+.heading {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+nav {
+  position: relative;
+
+  flex-direction: row;
+  align-items: center;
+
+  height: 50px;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: #616161;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  list-style-type: none;
+
+  margin: auto;
+  height: 100%;
+  padding-left: 0;
+  padding-right: 25px;
+  right: 0;
+}
+
+nav li {
+  margin-right: 25px;
+  color: white;
+}
