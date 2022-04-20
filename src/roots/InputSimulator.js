@@ -1,4 +1,5 @@
 import "./Form.css"
+import {Link} from "react-router-dom";
 
 function InputSimulator() {
     return(
@@ -13,8 +14,8 @@ function InputSimulator() {
                        placeholder="Пароль">
                 </input>
 
-                <button type="submit" className="authorization-element authorization-button">
-                    Авторизоваться
+                <button className="authorization-element authorization-button">
+                    <Link to="/">Авторизоваться</Link>
                 </button>
             </form>
         </main>
