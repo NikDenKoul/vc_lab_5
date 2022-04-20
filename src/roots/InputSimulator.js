@@ -13,6 +13,9 @@ function InputSimulator() {
                 <input className="authorization-element" name="authorizationPassword" id="authorizationPassword"
                        placeholder="Пароль">
                 </input>
+                <input className="authorization-element"
+                       placeholder="Что-то ещё">
+                </input>
 
                 <button className="authorization-element authorization-button">
                     <Link to="/">Авторизоваться</Link>
